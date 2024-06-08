@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81B2FCA22B4C508E00AEFB42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B2FCA12B4C508E00AEFB42 /* AppDelegate.swift */; };
+		81B2FCA42B4C508E00AEFB42 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B2FCA32B4C508E00AEFB42 /* SceneDelegate.swift */; };
+		81B2FCA92B4C508E00AEFB42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B2FCA72B4C508E00AEFB42 /* Main.storyboard */; };
+		81B2FCAC2B4C508E00AEFB42 /* Poetry_Core.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 81B2FCAA2B4C508E00AEFB42 /* Poetry_Core.xcdatamodeld */; };
+		81B2FCAE2B4C509000AEFB42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81B2FCAD2B4C509000AEFB42 /* Assets.xcassets */; };
+		81B2FCB12B4C509000AEFB42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B2FCAF2B4C509000AEFB42 /* LaunchScreen.storyboard */; };
+		81B2FCBA2B4C530100AEFB42 /* Lable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B2FCB92B4C530000AEFB42 /* Lable.swift */; };
+		81B2FCD32B4C534800AEFB42 /* PoetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B2FCBC2B4C534800AEFB42 /* PoetVC.swift */; };
+		81B2FCD42B4C534800AEFB42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B2FCBD2B4C534800AEFB42 /* ViewController.swift */; };
+		81B2FCD52B4C534800AEFB42 /* CategoriesCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81B2FCC02B4C534800AEFB42 /* CategoriesCVC.xib */; };
+		81B2FCD62B4C534800AEFB42 /* CategoriesCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B2FCC12B4C534800AEFB42 /* CategoriesCVC.swift */; };
+		81B2FCD72B4C534800AEFB42 /* searchTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B2FCC32B4C534800AEFB42 /* searchTVC.swift */; };
+		81B2FCD82B4C534800AEFB42 /* searchTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81B2FCC42B4C534800AEFB42 /* searchTVC.xib */; };
+		81B2FCD92B4C534800AEFB42 /* PoetCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81B2FCC62B4C534800AEFB42 /* PoetCVC.xib */; };
+		81B2FCDA2B4C534800AEFB42 /* PoetCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B2FCC72B4C534800AEFB42 /* PoetCVC.swift */; };
+		81B2FCDB2B4C534800AEFB42 /* SunflowerTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81B2FCC92B4C534800AEFB42 /* SunflowerTVC.xib */; };
+		81B2FCDC2B4C534800AEFB42 /* SunflowerTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B2FCCA2B4C534800AEFB42 /* SunflowerTVC.swift */; };
+		81B2FCDD2B4C534800AEFB42 /* PoetTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B2FCCC2B4C534800AEFB42 /* PoetTVC.swift */; };
+		81B2FCDE2B4C534800AEFB42 /* PoetTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81B2FCCD2B4C534800AEFB42 /* PoetTVC.xib */; };
+		81B2FCDF2B4C534800AEFB42 /* PoetryTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B2FCCF2B4C534800AEFB42 /* PoetryTVC.swift */; };
+		81B2FCE02B4C534800AEFB42 /* PoetryTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81B2FCD02B4C534800AEFB42 /* PoetryTVC.xib */; };
+		81B2FCE12B4C534800AEFB42 /* TababarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B2FCD12B4C534800AEFB42 /* TababarVC.swift */; };
+		81B2FCE22B4C534800AEFB42 /* PoetryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B2FCD22B4C534800AEFB42 /* PoetryVC.swift */; };
+		81B2FCE62B4C53B000AEFB42 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B2FCE42B4C53B000AEFB42 /* DataModel.swift */; };
+		81B2FCE72B4C53B000AEFB42 /* DataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B2FCE52B4C53B000AEFB42 /* DataBaseManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		81B2FC9E2B4C508E00AEFB42 /* Poetry Core.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Poetry Core.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81B2FCA12B4C508E00AEFB42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81B2FCA32B4C508E00AEFB42 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		81B2FCA82B4C508E00AEFB42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81B2FCAB2B4C508E00AEFB42 /* Poetry_Core.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Poetry_Core.xcdatamodel; sourceTree = "<group>"; };
+		81B2FCAD2B4C509000AEFB42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81B2FCB02B4C509000AEFB42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81B2FCB22B4C509000AEFB42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81B2FCB92B4C530000AEFB42 /* Lable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lable.swift; sourceTree = "<group>"; };
+		81B2FCBC2B4C534800AEFB42 /* PoetVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoetVC.swift; sourceTree = "<group>"; };
+		81B2FCBD2B4C534800AEFB42 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		81B2FCC02B4C534800AEFB42 /* CategoriesCVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoriesCVC.xib; sourceTree = "<group>"; };
+		81B2FCC12B4C534800AEFB42 /* CategoriesCVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesCVC.swift; sourceTree = "<group>"; };
+		81B2FCC32B4C534800AEFB42 /* searchTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = searchTVC.swift; sourceTree = "<group>"; };
+		81B2FCC42B4C534800AEFB42 /* searchTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = searchTVC.xib; sourceTree = "<group>"; };
+		81B2FCC62B4C534800AEFB42 /* PoetCVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PoetCVC.xib; sourceTree = "<group>"; };
+		81B2FCC72B4C534800AEFB42 /* PoetCVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoetCVC.swift; sourceTree = "<group>"; };
+		81B2FCC92B4C534800AEFB42 /* SunflowerTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SunflowerTVC.xib; sourceTree = "<group>"; };
+		81B2FCCA2B4C534800AEFB42 /* SunflowerTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SunflowerTVC.swift; sourceTree = "<group>"; };
+		81B2FCCC2B4C534800AEFB42 /* PoetTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoetTVC.swift; sourceTree = "<group>"; };
+		81B2FCCD2B4C534800AEFB42 /* PoetTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PoetTVC.xib; sourceTree = "<group>"; };
+		81B2FCCF2B4C534800AEFB42 /* PoetryTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoetryTVC.swift; sourceTree = "<group>"; };
+		81B2FCD02B4C534800AEFB42 /* PoetryTVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PoetryTVC.xib; sourceTree = "<group>"; };
+		81B2FCD12B4C534800AEFB42 /* TababarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TababarVC.swift; sourceTree = "<group>"; };
+		81B2FCD22B4C534800AEFB42 /* PoetryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoetryVC.swift; sourceTree = "<group>"; };
+		81B2FCE42B4C53B000AEFB42 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		81B2FCE52B4C53B000AEFB42 /* DataBaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataBaseManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81B2FC9B2B4C508E00AEFB42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81B2FC952B4C508E00AEFB42 = {
+			isa = PBXGroup;
+			children = (
+				81B2FCA02B4C508E00AEFB42 /* Poetry Core */,
+				81B2FC9F2B4C508E00AEFB42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81B2FC9F2B4C508E00AEFB42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81B2FC9E2B4C508E00AEFB42 /* Poetry Core.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81B2FCA02B4C508E00AEFB42 /* Poetry Core */ = {
+			isa = PBXGroup;
+			children = (
+				81B2FCE82B4C53C700AEFB42 /* Delegates */,
+				81B2FCB82B4C530000AEFB42 /* Helpers */,
+				81B2FCE32B4C53B000AEFB42 /* Models */,
+				81B2FCE92B4C53D500AEFB42 /* Views */,
+				81B2FCBB2B4C534800AEFB42 /* Controllers */,
+				81B2FCAD2B4C509000AEFB42 /* Assets.xcassets */,
+				81B2FCB22B4C509000AEFB42 /* Info.plist */,
+				81B2FCAA2B4C508E00AEFB42 /* Poetry_Core.xcdatamodeld */,
+			);
+			path = "Poetry Core";
+			sourceTree = "<group>";
+		};
+		81B2FCB82B4C530000AEFB42 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				81B2FCB92B4C530000AEFB42 /* Lable.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		81B2FCBB2B4C534800AEFB42 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				81B2FCBC2B4C534800AEFB42 /* PoetVC.swift */,
+				81B2FCBD2B4C534800AEFB42 /* ViewController.swift */,
+				81B2FCBE2B4C534800AEFB42 /* Nibs */,
+				81B2FCD12B4C534800AEFB42 /* TababarVC.swift */,
+				81B2FCD22B4C534800AEFB42 /* PoetryVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		81B2FCBE2B4C534800AEFB42 /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+				81B2FCBF2B4C534800AEFB42 /* CategoriesCVC */,
+				81B2FCC22B4C534800AEFB42 /* SearchTVC */,
+				81B2FCC52B4C534800AEFB42 /* PoetCVC */,
+				81B2FCC82B4C534800AEFB42 /* SunflowerTVC */,
+				81B2FCCB2B4C534800AEFB42 /* PoetTVC */,
+				81B2FCCE2B4C534800AEFB42 /* PoetryTVC */,
+			);
+			path = Nibs;
+			sourceTree = "<group>";
+		};
+		81B2FCBF2B4C534800AEFB42 /* CategoriesCVC */ = {
+			isa = PBXGroup;
+			children = (
+				81B2FCC02B4C534800AEFB42 /* CategoriesCVC.xib */,
+				81B2FCC12B4C534800AEFB42 /* CategoriesCVC.swift */,
+			);
+			path = CategoriesCVC;
+			sourceTree = "<group>";
+		};
+		81B2FCC22B4C534800AEFB42 /* SearchTVC */ = {
+			isa = PBXGroup;
+			children = (
+				81B2FCC32B4C534800AEFB42 /* searchTVC.swift */,
+				81B2FCC42B4C534800AEFB42 /* searchTVC.xib */,
+			);
+			path = SearchTVC;
+			sourceTree = "<group>";
+		};
+		81B2FCC52B4C534800AEFB42 /* PoetCVC */ = {
+			isa = PBXGroup;
+			children = (
+				81B2FCC62B4C534800AEFB42 /* PoetCVC.xib */,
+				81B2FCC72B4C534800AEFB42 /* PoetCVC.swift */,
+			);
+			path = PoetCVC;
+			sourceTree = "<group>";
+		};
+		81B2FCC82B4C534800AEFB42 /* SunflowerTVC */ = {
+			isa = PBXGroup;
+			children = (
+				81B2FCC92B4C534800AEFB42 /* SunflowerTVC.xib */,
+				81B2FCCA2B4C534800AEFB42 /* SunflowerTVC.swift */,
+			);
+			path = SunflowerTVC;
+			sourceTree = "<group>";
+		};
+		81B2FCCB2B4C534800AEFB42 /* PoetTVC */ = {
+			isa = PBXGroup;
+			children = (
+				81B2FCCC2B4C534800AEFB42 /* PoetTVC.swift */,
+				81B2FCCD2B4C534800AEFB42 /* PoetTVC.xib */,
+			);
+			path = PoetTVC;
+			sourceTree = "<group>";
+		};
+		81B2FCCE2B4C534800AEFB42 /* PoetryTVC */ = {
+			isa = PBXGroup;
+			children = (
+				81B2FCCF2B4C534800AEFB42 /* PoetryTVC.swift */,
+				81B2FCD02B4C534800AEFB42 /* PoetryTVC.xib */,
+			);
+			path = PoetryTVC;
+			sourceTree = "<group>";
+		};
+		81B2FCE32B4C53B000AEFB42 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				81B2FCE42B4C53B000AEFB42 /* DataModel.swift */,
+				81B2FCE52B4C53B000AEFB42 /* DataBaseManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		81B2FCE82B4C53C700AEFB42 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				81B2FCA32B4C508E00AEFB42 /* SceneDelegate.swift */,
+				81B2FCA12B4C508E00AEFB42 /* AppDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		81B2FCE92B4C53D500AEFB42 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				81B2FCAF2B4C509000AEFB42 /* LaunchScreen.storyboard */,
+				81B2FCA72B4C508E00AEFB42 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81B2FC9D2B4C508E00AEFB42 /* Poetry Core */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81B2FCB52B4C509000AEFB42 /* Build configuration list for PBXNativeTarget "Poetry Core" */;
+			buildPhases = (
+				81B2FC9A2B4C508E00AEFB42 /* Sources */,
+				81B2FC9B2B4C508E00AEFB42 /* Frameworks */,
+				81B2FC9C2B4C508E00AEFB42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Poetry Core";
+			productName = "Poetry Core";
+			productReference = 81B2FC9E2B4C508E00AEFB42 /* Poetry Core.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81B2FC962B4C508E00AEFB42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					81B2FC9D2B4C508E00AEFB42 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = 81B2FC992B4C508E00AEFB42 /* Build configuration list for PBXProject "Poetry Core" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81B2FC952B4C508E00AEFB42;
+			productRefGroup = 81B2FC9F2B4C508E00AEFB42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81B2FC9D2B4C508E00AEFB42 /* Poetry Core */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81B2FC9C2B4C508E00AEFB42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B2FCD82B4C534800AEFB42 /* searchTVC.xib in Resources */,
+				81B2FCDE2B4C534800AEFB42 /* PoetTVC.xib in Resources */,
+				81B2FCD52B4C534800AEFB42 /* CategoriesCVC.xib in Resources */,
+				81B2FCE02B4C534800AEFB42 /* PoetryTVC.xib in Resources */,
+				81B2FCD92B4C534800AEFB42 /* PoetCVC.xib in Resources */,
+				81B2FCB12B4C509000AEFB42 /* LaunchScreen.storyboard in Resources */,
+				81B2FCDB2B4C534800AEFB42 /* SunflowerTVC.xib in Resources */,
+				81B2FCAE2B4C509000AEFB42 /* Assets.xcassets in Resources */,
+				81B2FCA92B4C508E00AEFB42 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81B2FC9A2B4C508E00AEFB42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81B2FCE72B4C53B000AEFB42 /* DataBaseManager.swift in Sources */,
+				81B2FCDA2B4C534800AEFB42 /* PoetCVC.swift in Sources */,
+				81B2FCD42B4C534800AEFB42 /* ViewController.swift in Sources */,
+				81B2FCDD2B4C534800AEFB42 /* PoetTVC.swift in Sources */,
+				81B2FCD32B4C534800AEFB42 /* PoetVC.swift in Sources */,
+				81B2FCBA2B4C530100AEFB42 /* Lable.swift in Sources */,
+				81B2FCE62B4C53B000AEFB42 /* DataModel.swift in Sources */,
+				81B2FCD62B4C534800AEFB42 /* CategoriesCVC.swift in Sources */,
+				81B2FCDF2B4C534800AEFB42 /* PoetryTVC.swift in Sources */,
+				81B2FCE12B4C534800AEFB42 /* TababarVC.swift in Sources */,
+				81B2FCA22B4C508E00AEFB42 /* AppDelegate.swift in Sources */,
+				81B2FCD72B4C534800AEFB42 /* searchTVC.swift in Sources */,
+				81B2FCDC2B4C534800AEFB42 /* SunflowerTVC.swift in Sources */,
+				81B2FCA42B4C508E00AEFB42 /* SceneDelegate.swift in Sources */,
+				81B2FCAC2B4C508E00AEFB42 /* Poetry_Core.xcdatamodeld in Sources */,
+				81B2FCE22B4C534800AEFB42 /* PoetryVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		81B2FCA72B4C508E00AEFB42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81B2FCA82B4C508E00AEFB42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81B2FCAF2B4C509000AEFB42 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81B2FCB02B4C509000AEFB42 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81B2FCB32B4C509000AEFB42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81B2FCB42B4C509000AEFB42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81B2FCB62B4C509000AEFB42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8CQ25XUFZW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Poetry Core/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "malik.Poetry-Core";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		81B2FCB72B4C509000AEFB42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8CQ25XUFZW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Poetry Core/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "malik.Poetry-Core";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81B2FC992B4C508E00AEFB42 /* Build configuration list for PBXProject "Poetry Core" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B2FCB32B4C509000AEFB42 /* Debug */,
+				81B2FCB42B4C509000AEFB42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81B2FCB52B4C509000AEFB42 /* Build configuration list for PBXNativeTarget "Poetry Core" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81B2FCB62B4C509000AEFB42 /* Debug */,
+				81B2FCB72B4C509000AEFB42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		81B2FCAA2B4C508E00AEFB42 /* Poetry_Core.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				81B2FCAB2B4C508E00AEFB42 /* Poetry_Core.xcdatamodel */,
+			);
+			currentVersion = 81B2FCAB2B4C508E00AEFB42 /* Poetry_Core.xcdatamodel */;
+			path = Poetry_Core.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 81B2FC962B4C508E00AEFB42 /* Project object */;
+}

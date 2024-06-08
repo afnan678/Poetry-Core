@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CategoriesCVC" customModule="Poetry_Core" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="130" height="144"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="130" height="144"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wBe-mK-Ce7">
+                        <rect key="frame" x="0.0" y="0.0" width="130" height="144"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="lkU-db-SfE">
+                                <rect key="frame" x="45" y="52" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="FLY-g3-gIH"/>
+                                    <constraint firstAttribute="width" constant="40" id="mac-WK-hAW"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Happy Poems" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d0r-nJ-5QE">
+                                <rect key="frame" x="25.333333333333336" y="27.666666666666668" width="79.666666666666657" height="14.333333333333332"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rightBack" translatesAutoresizingMaskIntoConstraints="NO" id="KsH-MV-ZEJ">
+                                <rect key="frame" x="12" y="108" width="24" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="24" id="SCH-iR-rcH"/>
+                                    <constraint firstAttribute="height" constant="24" id="wVL-FK-ib4"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Read poetry" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bvl-G5-yVO">
+                                <rect key="frame" x="63" y="120.33333333333333" width="60" height="9.6666666666666714"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="8"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" name="4095FF"/>
+                        <constraints>
+                            <constraint firstItem="bvl-G5-yVO" firstAttribute="leading" secondItem="KsH-MV-ZEJ" secondAttribute="trailing" constant="27" id="BwX-Zu-hc4"/>
+                            <constraint firstItem="lkU-db-SfE" firstAttribute="centerY" secondItem="wBe-mK-Ce7" secondAttribute="centerY" id="Fv5-tl-iAK"/>
+                            <constraint firstAttribute="bottom" secondItem="KsH-MV-ZEJ" secondAttribute="bottom" constant="12" id="Pfw-fs-jbo"/>
+                            <constraint firstAttribute="trailing" secondItem="bvl-G5-yVO" secondAttribute="trailing" constant="7" id="R6e-LQ-v6Y"/>
+                            <constraint firstAttribute="bottom" secondItem="bvl-G5-yVO" secondAttribute="bottom" constant="14" id="SoH-5J-9IT"/>
+                            <constraint firstItem="lkU-db-SfE" firstAttribute="top" secondItem="d0r-nJ-5QE" secondAttribute="bottom" constant="10" id="Vow-Cr-VUV"/>
+                            <constraint firstItem="d0r-nJ-5QE" firstAttribute="centerX" secondItem="lkU-db-SfE" secondAttribute="centerX" id="dvR-6W-j5m"/>
+                            <constraint firstItem="KsH-MV-ZEJ" firstAttribute="leading" secondItem="wBe-mK-Ce7" secondAttribute="leading" constant="12" id="hxP-v3-hrK"/>
+                            <constraint firstItem="lkU-db-SfE" firstAttribute="centerX" secondItem="wBe-mK-Ce7" secondAttribute="centerX" id="pGL-HK-yzt"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="wBe-mK-Ce7" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="8vi-F6-VBy"/>
+                <constraint firstItem="wBe-mK-Ce7" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="PTK-Uk-gEA"/>
+                <constraint firstAttribute="trailing" secondItem="wBe-mK-Ce7" secondAttribute="trailing" id="c95-w1-siB"/>
+                <constraint firstAttribute="bottom" secondItem="wBe-mK-Ce7" secondAttribute="bottom" id="rWs-P9-RoT"/>
+            </constraints>
+            <size key="customSize" width="130" height="144"/>
+            <connections>
+                <outlet property="BGview" destination="wBe-mK-Ce7" id="eun-XT-1vQ"/>
+                <outlet property="Imagewiew" destination="lkU-db-SfE" id="BFA-CL-2xC"/>
+                <outlet property="titleLBL" destination="d0r-nJ-5QE" id="qan-gr-ASe"/>
+            </connections>
+            <point key="canvasLocation" x="178.62595419847327" y="53.521126760563384"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Image" width="40" height="40"/>
+        <image name="rightBack" width="24" height="24"/>
+        <namedColor name="4095FF">
+            <color red="0.25098039215686274" green="0.58431372549019611" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
